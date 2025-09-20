@@ -42,7 +42,8 @@ This is the professional, clean way to manage dotfiles without cluttering your h
  **Clone this repository as a "bare" repo:**
  
 
-    git clone https://github.com/shadowdevforge/DotFiles.git ~/.config && mv ~/.config/nvim ~/.config/nvim.bak && git clone https://github.com/shadowdevforge/NvShade.git ~/.config/nvim
+    curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/dotfiles/.zshrc -o ~/.zshrc && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/dotfiles/.p10k.zsh -o ~/.p10k.zsh && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/dotfiles/.tmux.conf -o ~/.tmux.conf && git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+     && mv ~/.config/nvim ~/.config/nvim.bak && git clone https://github.com/shadowdevforge/NvShade.git ~/.config/nvim
     
 
 
