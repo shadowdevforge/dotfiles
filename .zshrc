@@ -124,5 +124,5 @@ start_tmux() {
 # Call the function to start tmux
 start_tmux
 echo
-fastfetch
+fastfetch 
 echo
