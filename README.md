@@ -1,13 +1,13 @@
 
 <div align="center">
 <pre>
-<img width="1600" height="900" alt="Screenshot 2025-09-20 233934" src="https://github.com/user-attachments/assets/1c637f44-d72c-48c0-bf6e-abcfd7577a0f" />  
+<img width="1600" height="900" alt="Screenshot 2025-09-26 223032" src="https://github.com/user-attachments/assets/118a7be7-97aa-4340-94d1-b14c2dd1eac4" />
 </pre>
 </div>
 
 <div align="center">
 
-**My personal digital cockpit. A fiercely forged configuration for Zsh, Tmux, and Neovim.**
+**My personal digital cockpit. A fiercely forged configuration for Zsh, Tmux, fastfetch and Neovim.**
 
 </div>
 
@@ -34,15 +34,14 @@ This is the process to restore this environment on any fresh, minimal Arch Linux
 *   A Linux system (WSL 2 or bare metal).
 *   Essential tools installed: `git`, `zsh`, `tmux`, `neovim`, `fastfetch`.
 *   A **Nerd Font** installed and enabled in your terminal (e.g., [FiraCode Nerd Font](https://www.nerdfonts.com/font-downloads)).
+*   Tmux tpm installation `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
 
-### **2. The "Bare" Repository Method**
+### **2. Application**
 
-This is the professional, clean way to manage dotfiles without cluttering your home directory.
-
- **Clone this repository as a "bare" repo:**
+ **Clone the config:**
  
 
-    curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/.zshrc -o ~/.zshrc && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/.p10k.zsh -o ~/.p10k.zsh && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/.tmux.conf -o ~/.tmux.conf && git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm && mv ~/.config/nvim ~/.config/nvim.bak && git clone https://github.com/shadowdevforge/NvShade.git ~/.config/nvim
+    curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/.zshrc -o ~/.zshrc && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/.p10k.zsh -o ~/.p10k.zsh && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/.tmux.conf -o ~/.tmux.conf && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/fastfetch.jsonc -o ~/.config/fastfetch/config.jsonc && mv ~/.config/nvim ~/.config/nvim.bak && git clone https://github.com/shadowdevforge/NvShade.git ~/.config/nvim
     
 
 
