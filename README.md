@@ -41,7 +41,7 @@ This is the process to restore this environment on any fresh, minimal Arch Linux
  **Clone the config:**
  
 
-    curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/.zshrc -o ~/.zshrc && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/.p10k.zsh -o ~/.p10k.zsh && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/.tmux.conf -o ~/.tmux.conf && curl https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/fastfetch.jsonc >> ~/.config/fastfetch/config.jsonc && mv ~/.config/nvim ~/.config/nvim.bak && git clone https://github.com/shadowdevforge/NvShade.git ~/.config/nvim
+    curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/.zshrc -o ~/.zshrc && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/.p10k.zsh -o ~/.p10k.zsh && curl -fsSL https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/.tmux.conf -o ~/.tmux.conf && curl https://raw.githubusercontent.com/shadowdevforge/dotfiles/main/fastfetch.jsonc -o ~/.config/fastfetch/config.jsonc && mv ~/.config/nvim ~/.config/nvim.bak && git clone https://github.com/shadowdevforge/NvShade.git ~/.config/nvim
     
 
 
