@@ -121,7 +121,14 @@ start_tmux() {
   fi
 }
 
+# Load zsh-syntax-highlighting plugin
+source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Load zsh-autosuggestions plugin
+source ~/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 # Call the function to start tmux
+clear
 start_tmux
 echo
 fastfetch 
