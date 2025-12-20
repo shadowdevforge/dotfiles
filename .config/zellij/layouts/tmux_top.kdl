@@ -1,0 +1,8 @@
+layout {
+    // 1. Bar at the TOP (size=1)
+    pane size=1 borderless=true {
+        plugin location="zellij:compact-bar"
+    }
+    // 2. The actual terminal content
+    pane
+}
